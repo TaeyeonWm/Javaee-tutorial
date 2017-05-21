@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="com.giit.www.orderbook:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="giit.war">
+      <element id="artifact" artifact-name="com.giit.www.orderbook:war exploded" />
+    </root>
+  </artifact>
+</component>
