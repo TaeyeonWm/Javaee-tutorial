@@ -40,6 +40,8 @@ public class ElectiveController {
     public String delete(int secId, HttpSession session) {
         String stdId = (String) session.getAttribute("username");
         electiveBiz.delete(secId, stdId);
+        System.out.println("23");
+        System.out.println("231423");
         return "redirect:/elective.do/elective.view";
     }
 
